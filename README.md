@@ -5,8 +5,7 @@ Mediapipe is developed by google and is open to use by everyone
 ![image](https://github.com/SrinadhVura/Volume_Contoller/assets/83588454/754fdb4a-da41-45a1-be47-bd1db1c243cb)
 The above image shows the various points that can be detected by mediapipe framework. In this repository to control to volume, I've used the distance between point 8 and 12 i.e., INDEX_FINGER_TIP and MIDDLE_FINGER_TIP
 The repository contains two python files.
-1. HTrack.py --> It is a module that utilises mediapipe framework, detects the points on hand
+1. HTrack.py --> It is a module that utilises mediapipe framework, detects the points on hand. Also used to draw hands and detect landmarks on hands.
 2. VolCon.py --> It is the file that makes use of HTrack and controlls volume
 * pycaw is used to control the system volume
-* opencv is used to capture the hand using PC's camera
-With the help of opencv the volume bar is drawn on the screen.
+* opencv is used to capture the hand using PC's camera. With the help of opencv the volume bar is drawn on the screen.
