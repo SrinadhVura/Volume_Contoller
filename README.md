@@ -7,3 +7,6 @@ The above image shows the various points that can be detected by mediapipe frame
 The repository contains two python files.
 1. HTrack.py --> It is a module that utilises mediapipe framework, detects the points on hand
 2. VolCon.py --> It is the file that makes use of HTrack and controlls volume
+* pycaw is used to control the system volume
+* opencv is used to capture the hand using PC's camera
+With the help of opencv the volume bar is drawn on the screen.
