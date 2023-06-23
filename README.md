@@ -6,4 +6,4 @@ Mediapipe is developed by google and is open to use by everyone
 The above image shows the various points that can be detected by mediapipe framework. In this repository to control to volume, I've used the distance between point 8 and 12 i.e., INDEX_FINGER_TIP and MIDDLE_FINGER_TIP
 The repository contains two python files.
 1. HTrack.py --> It is a module that utilises mediapipe framework, detects the points on hand
-2. Vol_controller.py --> It is the file that makes use of HTrack and controlls volume
+2. VolCon.py --> It is the file that makes use of HTrack and controlls volume
